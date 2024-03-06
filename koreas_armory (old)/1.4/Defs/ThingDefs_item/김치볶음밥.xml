@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MealCooked">
+    <defName>foundcake</defName>
+    <label>즉석 김치볶음밥</label>
+    <description>발열팩이 안에들어가있습니다. 김치복님이 만들었는지 맛있네요(계란이 없네요ㅠ)</description>
+    <graphicData>
+      <texPath>Things/kimchi</texPath>
+      <graphicClass>Graphic_MealVariants</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>230</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>

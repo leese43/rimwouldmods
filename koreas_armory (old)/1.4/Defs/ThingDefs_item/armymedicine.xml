@@ -1,0 +1,17 @@
+ <?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="Medicine">
+        <defName>구급낭</defName>
+        <label>구급낭</label>
+        <description>응급처치용 구급낭입니다</description>
+		<graphicData>
+      <texPath>Things/medic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <color>(172,240,248)</color>
+      <drawSize>0.40</drawSize>
+    </graphicData>
+        <statBases>
+            <MedicalPotency>1</MedicalPotency>
+        </statBases>
+    </ThingDef>
+</Defs>
