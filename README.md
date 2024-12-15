@@ -1,2 +1,3 @@
-Please use the file at the top.
-(The one below is an old beta)
+오류발생가능성이 다분합니다,
+오류발생시 seoli4681@gmail.com으로 메일주세요.
+아직 미숙하니 양해 부탁드립니다.
